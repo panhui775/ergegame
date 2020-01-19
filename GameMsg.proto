@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+package GameMsg;
+option java_package = "org.mygame.fingertip.gamemsg";
+
+// 消息代号
+enum MsgCode {
+    USER_LOGIN_CMD = 0; //用户登录
+    USER_LOGIN_RESULT = 1;//用户登录返回
+    USER_QUIT_RESULT = 2;//用户退出
+};
+
+//
+// 用户登录
+///////////////////////////////////////////////////////////////////////
+// 指令
+message UserLoginCmd {
+    // 用户名称
+    string userName = 1;
+    // 用户密码
+    string password = 2;
+}
+
+// 结果
+message UserLoginResult {
+    // 用户 Id,
+    // 如果是 -1 则说明登录失败
+    uint32 userId = 1;
+    // 用户名称
+    string userName = 2;
+    // 英雄形象
+    string heroAvatar = 3;
+}
+
+// 
+// 用户退场
+///////////////////////////////////////////////////////////////////////
+// 
+// XXX 注意: 用户退场不需要指令, 因为是在断开服务器的时候执行
+// 
+// 结果
+message UserQuitResult {
+    // 退出用户 Id
+    uint32 quitUserId = 1;
+}
