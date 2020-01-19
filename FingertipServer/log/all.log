@@ -1,0 +1,269 @@
+[10:47:48,217] [INFO] ServerMain.main --> 服务器启动成功
+[12:22:46,633] [INFO] ServerMain.main --> 服务器启动成功
+[12:26:51,008] [INFO] ServerMain.main --> 服务器启动成功
+[12:27:20,239] [WARN] DefaultChannelPipeline.onUnhandledInboundException --> An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.ClassCastException: org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd cannot be cast to io.netty.handler.codec.http.websocketx.BinaryWebSocketFrame
+	at org.mygame.fingertip.GameMsgHandler.channelRead0(GameMsgHandler.java:13)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at org.mygame.fingertip.GameMsgDecoder.channelRead(GameMsgDecoder.java:40)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at io.netty.handler.codec.http.websocketx.Utf8FrameValidator.channelRead(Utf8FrameValidator.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler$1.channelRead(WebSocketServerProtocolHandler.java:272)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:326)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:300)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1422)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:931)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+[12:31:28,384] [WARN] DefaultChannelPipeline.onUnhandledInboundException --> An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.ClassCastException: org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd cannot be cast to io.netty.handler.codec.http.websocketx.BinaryWebSocketFrame
+	at org.mygame.fingertip.GameMsgHandler.channelRead0(GameMsgHandler.java:13)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at org.mygame.fingertip.GameMsgDecoder.channelRead(GameMsgDecoder.java:40)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at io.netty.handler.codec.http.websocketx.Utf8FrameValidator.channelRead(Utf8FrameValidator.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler$1.channelRead(WebSocketServerProtocolHandler.java:272)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:326)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:300)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1422)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:931)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+[12:31:43,387] [INFO] ServerMain.main --> 服务器启动成功
+[12:31:50,199] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msg = userName: "111"
+password: "222"
+
+[12:31:50,200] [WARN] DefaultChannelPipeline.onUnhandledInboundException --> An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.ClassCastException: org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd cannot be cast to io.netty.handler.codec.http.websocketx.BinaryWebSocketFrame
+	at org.mygame.fingertip.GameMsgHandler.channelRead0(GameMsgHandler.java:17)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at org.mygame.fingertip.GameMsgDecoder.channelRead(GameMsgDecoder.java:40)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at io.netty.handler.codec.http.websocketx.Utf8FrameValidator.channelRead(Utf8FrameValidator.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler$1.channelRead(WebSocketServerProtocolHandler.java:272)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:326)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:300)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1422)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:931)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+[12:33:45,563] [INFO] ServerMain.main --> 服务器启动成功
+[12:33:49,101] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msg = userName: "111"
+password: "222"
+
+[12:33:49,102] [WARN] DefaultChannelPipeline.onUnhandledInboundException --> An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+java.lang.ClassCastException: org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd cannot be cast to io.netty.handler.codec.http.websocketx.BinaryWebSocketFrame
+	at org.mygame.fingertip.GameMsgHandler.channelRead0(GameMsgHandler.java:17)
+	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at org.mygame.fingertip.GameMsgDecoder.channelRead(GameMsgDecoder.java:40)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:102)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at io.netty.handler.codec.http.websocketx.Utf8FrameValidator.channelRead(Utf8FrameValidator.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.http.websocketx.WebSocketServerProtocolHandler$1.channelRead(WebSocketServerProtocolHandler.java:272)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:326)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:300)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:352)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1422)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:374)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:360)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:931)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:163)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:700)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:635)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:552)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:514)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$6.run(SingleThreadEventExecutor.java:1050)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+[13:07:37,703] [INFO] ServerMain.main --> 服务器启动成功
+[13:07:41,615] [INFO] GameMsgHandler.channelRead0 --> 收到客户端消息, msg = userName: "111"
+password: "222"
+
+[17:29:34,759] [INFO] ServerMain.main --> 服务器启动成功
+[17:30:14,365] [INFO] MainThreadProcessor.process --> 收到客户端消息, msgClazz = org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd
+[17:30:14,368] [ERROR] MainThreadProcessor.lambda$process$1 --> 未找到相对应的指令处理器, msgClazz = org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd
+[18:18:46,633] [INFO] MainThreadProcessor.process --> 收到客户端消息, msgClazz = org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd
+[18:18:46,634] [ERROR] MainThreadProcessor.lambda$process$1 --> 未找到相对应的指令处理器, msgClazz = org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd
+[18:19:15,214] [INFO] ServerMain.main --> 服务器启动成功
+[18:42:01,464] [INFO] MainThreadProcessor.process --> 收到客户端消息, msgClazz = org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd
+[18:42:07,870] [ERROR] MainThreadProcessor.lambda$process$1 --> 未找到相对应的指令处理器, msgClazz = org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd
+[19:33:51,772] [INFO] CmdHandlerFactory.init --> ==== 完成 Cmd 和 Handler 的关联 ====
+[19:33:51,845] [INFO] CmdHandlerFactory.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd <==> org.mygame.fingertip.cmdHandler.UserLoginCmdHandler
+[19:33:51,846] [INFO] GameMsgRecognizer.init --> ==== 完成 MsgBody 和 MsgCode 的关联 ====
+[19:33:51,883] [INFO] GameMsgRecognizer.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserQuitResult <==> 2
+[19:33:51,886] [INFO] GameMsgRecognizer.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserLoginResult <==> 1
+[19:33:51,888] [INFO] GameMsgRecognizer.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd <==> 0
+[19:33:52,608] [INFO] ServerMain.main --> 服务器启动成功
+[19:34:16,640] [INFO] MainThreadProcessor.process --> 收到客户端消息, msgClazz = org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd
+[19:34:16,643] [INFO] UserLoginCmdHandler.handle --> 用户登陆, userName = 1111, password = 2222
+[20:10:58,433] [INFO] CmdHandlerFactory.init --> ==== 完成 Cmd 和 Handler 的关联 ====
+[20:10:58,516] [INFO] CmdHandlerFactory.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd <==> org.mygame.fingertip.cmdHandler.UserLoginCmdHandler
+[20:10:58,517] [INFO] GameMsgRecognizer.init --> ==== 完成 MsgBody 和 MsgCode 的关联 ====
+[20:10:58,561] [INFO] GameMsgRecognizer.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserQuitResult <==> 2
+[20:10:58,564] [INFO] GameMsgRecognizer.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserLoginResult <==> 1
+[20:10:58,568] [INFO] GameMsgRecognizer.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd <==> 0
+[20:10:59,382] [INFO] ServerMain.main --> 服务器启动成功
+[20:14:03,312] [INFO] CmdHandlerFactory.init --> ==== 完成 Cmd 和 Handler 的关联 ====
+[20:14:03,387] [INFO] CmdHandlerFactory.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd <==> org.mygame.fingertip.cmdHandler.UserLoginCmdHandler
+[20:14:03,388] [INFO] GameMsgRecognizer.init --> ==== 完成 MsgBody 和 MsgCode 的关联 ====
+[20:14:03,426] [INFO] GameMsgRecognizer.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserQuitResult <==> 2
+[20:14:03,429] [INFO] GameMsgRecognizer.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserLoginResult <==> 1
+[20:14:03,433] [INFO] GameMsgRecognizer.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd <==> 0
+[20:14:04,177] [INFO] ServerMain.main --> 服务器启动成功
+[20:14:10,441] [INFO] CmdHandlerFactory.init --> ==== 完成 Cmd 和 Handler 的关联 ====
+[20:14:10,545] [INFO] CmdHandlerFactory.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd <==> org.mygame.fingertip.cmdHandler.UserLoginCmdHandler
+[20:14:10,549] [INFO] GameMsgRecognizer.init --> ==== 完成 MsgBody 和 MsgCode 的关联 ====
+[20:16:18,872] [INFO] GameMsgRecognizer.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserQuitResult <==> 2
+[20:16:42,836] [INFO] GameMsgRecognizer.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserLoginResult <==> 1
+[20:17:34,232] [INFO] GameMsgRecognizer.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd <==> 0
+[20:18:07,238] [INFO] ServerMain.main --> 服务器启动成功
+[20:18:54,931] [INFO] CmdHandlerFactory.init --> ==== 完成 Cmd 和 Handler 的关联 ====
+[20:18:55,031] [INFO] CmdHandlerFactory.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd <==> org.mygame.fingertip.cmdHandler.UserLoginCmdHandler
+[20:18:55,037] [INFO] GameMsgRecognizer.init --> ==== 完成 MsgBody 和 MsgCode 的关联 ====
+[20:21:49,781] [INFO] GameMsgRecognizer.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserQuitResult <==> 2
+[20:23:58,821] [INFO] GameMsgRecognizer.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserLoginResult <==> 1
+[20:24:23,740] [INFO] GameMsgRecognizer.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd <==> 0
+[20:24:42,274] [INFO] ServerMain.main --> 服务器启动成功
+[21:41:11,935] [INFO] CmdHandlerFactory.init --> ==== 完成 Cmd 和 Handler 的关联 ====
+[21:41:12,008] [INFO] CmdHandlerFactory.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd <==> org.mygame.fingertip.cmdHandler.UserLoginCmdHandler
+[21:41:12,009] [INFO] GameMsgRecognizer.init --> ==== 完成 MsgBody 和 MsgCode 的关联 ====
+[21:41:12,048] [INFO] GameMsgRecognizer.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserQuitResult <==> 2
+[21:41:12,049] [INFO] GameMsgRecognizer.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserLoginResult <==> 1
+[21:41:12,053] [INFO] GameMsgRecognizer.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd <==> 0
+[21:41:12,779] [INFO] ServerMain.main --> 服务器启动成功
+[21:42:17,306] [INFO] MainThreadProcessor.process --> 收到客户端消息, msgClazz = org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd
+[21:42:17,307] [INFO] UserLoginCmdHandler.handle --> 用户登陆, userName = 1111, password = 2222
+[21:44:18,761] [INFO] GameMsgHandler.handlerRemoved --> 用户离线, userId = 1
+[21:44:50,897] [INFO] MainThreadProcessor.process --> 收到客户端消息, msgClazz = org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd
+[21:44:50,899] [INFO] UserLoginCmdHandler.handle --> 用户登陆, userName = 111, password = 222
+[21:45:59,600] [INFO] MainThreadProcessor.process --> 收到客户端消息, msgClazz = org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd
+[21:45:59,600] [INFO] UserLoginCmdHandler.handle --> 用户登陆, userName = 111, password = 222
+[21:46:16,959] [INFO] CmdHandlerFactory.init --> ==== 完成 Cmd 和 Handler 的关联 ====
+[21:46:17,074] [INFO] CmdHandlerFactory.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd <==> org.mygame.fingertip.cmdHandler.UserLoginCmdHandler
+[21:46:17,075] [INFO] GameMsgRecognizer.init --> ==== 完成 MsgBody 和 MsgCode 的关联 ====
+[21:46:17,110] [INFO] GameMsgRecognizer.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserQuitResult <==> 2
+[21:46:17,112] [INFO] GameMsgRecognizer.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserLoginResult <==> 1
+[21:46:17,114] [INFO] GameMsgRecognizer.init --> 关联 org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd <==> 0
+[21:46:18,022] [INFO] ServerMain.main --> 服务器启动成功
+[21:46:42,807] [INFO] MainThreadProcessor.process --> 收到客户端消息, msgClazz = org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd
+[21:46:55,276] [INFO] UserLoginCmdHandler.handle --> 用户登陆, userName = 111, password = 222
+[21:58:30,634] [INFO] GameMsgHandler.handlerRemoved --> 用户离线, userId = 1
+[21:58:43,170] [INFO] MainThreadProcessor.process --> 收到客户端消息, msgClazz = org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd
+[21:58:43,174] [INFO] UserLoginCmdHandler.handle --> 用户登陆, userName = 1111, password = 2222
+[22:11:12,494] [INFO] GameMsgHandler.handlerRemoved --> 用户离线, userId = 1
+[22:11:30,477] [INFO] MainThreadProcessor.process --> 收到客户端消息, msgClazz = org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd
+[22:11:30,477] [INFO] UserLoginCmdHandler.handle --> 用户登陆, userName = 111, password = 222
+[22:13:06,135] [INFO] MainThreadProcessor.process --> 收到客户端消息, msgClazz = org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd
+[22:13:06,136] [INFO] UserLoginCmdHandler.handle --> 用户登陆, userName = 111, password = 222
+[22:16:50,391] [INFO] GameMsgHandler.handlerRemoved --> 用户离线, userId = 1
+[22:17:03,819] [INFO] MainThreadProcessor.process --> 收到客户端消息, msgClazz = org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd
+[22:17:03,820] [INFO] UserLoginCmdHandler.handle --> 用户登陆, userName = 111, password = 222
+[22:20:39,591] [INFO] GameMsgHandler.handlerRemoved --> 用户离线, userId = 1
+[22:20:50,662] [INFO] MainThreadProcessor.process --> 收到客户端消息, msgClazz = org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd
+[22:20:50,662] [INFO] UserLoginCmdHandler.handle --> 用户登陆, userName = 111, password = 222
+[22:23:00,513] [INFO] GameMsgHandler.handlerRemoved --> 用户离线, userId = 1
+[22:23:44,493] [INFO] MainThreadProcessor.process --> 收到客户端消息, msgClazz = org.mygame.fingertip.gamemsg.GameMsg$UserLoginCmd
+[22:23:44,494] [INFO] UserLoginCmdHandler.handle --> 用户登陆, userName = 111, password = 222
+[22:32:08,900] [INFO] GameMsgHandler.handlerRemoved --> 用户离线, userId = 1
